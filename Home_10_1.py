@@ -8,7 +8,7 @@ import math
 import requests
 import os
 
-bot = telebot.TeleBot('5600007473:AAGugmr6FEPjsa_JSmDXWmzvbDDdWhNMIrA')
+bot = telebot.TeleBot('')
 
 @bot.message_handler(content_types=["text"])
 def support(message):
